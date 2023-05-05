@@ -1,3 +1,5 @@
 export function useBudgets(){}
 
-export const BudgetsProvider = ({children}) => {}
+export const BudgetsProvider = ({children}) => {
+    return children
+}
